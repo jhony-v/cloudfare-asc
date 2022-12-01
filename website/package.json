@@ -8,11 +8,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "preview:cloudfare": "npm run build && wrangler pages dev ./dist",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^4.1.0",
     "@astrojs/react": "^1.2.2",
     "@astrojs/tailwind": "^2.1.3",
     "astro": "^1.6.12",
